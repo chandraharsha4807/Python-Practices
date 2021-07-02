@@ -1,4 +1,4 @@
-def CountCurrency(N):
+def CountCurrencyNotes(N):
     notes = [1000, 500, 100, 50, 20, 10, 1]
     while N>0:
         
@@ -13,4 +13,4 @@ def CountCurrency(N):
     
 N = int(input())
 
-CountCurrency(N) 
+CountCurrencyNotes(N) 
